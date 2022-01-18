@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const NavbarContainer = styled.nav`
   width: 100%;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
-  background-color: #222222;
+  background-color: green;
   display: flex;
   flex-direction: column;
 `;
@@ -40,5 +40,3 @@ export const NavbarLink = styled(Link)`
   text-decoration: none;
   margin: 10px;
 `;
-
-export const NavbarLogo = styled.logo``;
